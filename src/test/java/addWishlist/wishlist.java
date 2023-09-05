@@ -22,6 +22,7 @@ WebDriver driver ;
 		WebDriverManager.chromedriver().setup();
 		 driver = new ChromeDriver();
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		 
 		 driver.get("https://wishbox2.vercel.app/creator/wishlists/66c71241-27cb-4b60-b9e3-543a9af534cc");
 		 
 		
