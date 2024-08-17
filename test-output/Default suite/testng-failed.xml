@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="addWishlist.wishlist">
+      <class name="addWishlist.Chezuba">
         <methods>
           <include name="test02"/>
-          <include name="test01"/>
         </methods>
-      </class> <!-- addWishlist.wishlist -->
+      </class> <!-- addWishlist.Chezuba -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
